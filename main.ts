@@ -1,0 +1,6 @@
+game.splash("Let's calculate the area of a trapezoid")
+let Length = game.askForNumber("Enter A base of trapezoid cm")
+let width = game.askForNumber("Enter b base of trapezoid cm")
+let Height = game.askForNumber("Enter height of trapezoid cm")
+let area = Length + width / (2 * Height)
+game.splash(" the area of the trapezoid " + Length + "Cm" + width + "Cm " + " divided by 2 cm " + " times " + Height + " you answer is " + convertToText(area) + " Cm2 ")
